@@ -1,0 +1,2 @@
+在项目中直接引入ibatis的源码，在ibatis缺乏个性化机制的情况下，方便添加自定义代码
+1、在MappedStatement中添加DAOMethodInvoke代码

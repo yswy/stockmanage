@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="GB2312"?>
+
+<!-- ============================================================== -->
+<!-- DTD file for dal-config.xml                                 .  -->
+<!-- $Id: dalgen-config.dtd,v 1.1 2005/11/08 14:54:07 chenbug Exp $   -->
+<!-- ============================================================== -->
+
+<!--
+*****************************************************************************
+* Copyright (c) 2005 Bench COMPANY,INC
+* Version     :V10R00
+* File        :dalgen-config.dtd
+* Project     :bench-dalgen
+* Language    :DTD
+* Author      :chenbug
+* Date        :2005.03.17
+* Update      :
+* Notes       :
+*****************************************************************************
+-->
+
+<!ELEMENT tables (typemap*,tableprefix*, include*, seq*)>
+
+<!ELEMENT typemap EMPTY>
+<!ATTLIST typemap
+		from CDATA #REQUIRED
+		to CDATA #REQUIRED>
+<!ELEMENT tableprefix EMPTY>
+<!ATTLIST tableprefix
+		prefix CDATA #REQUIRED>
+<!ELEMENT include EMPTY>
+<!ATTLIST include
+		table CDATA #REQUIRED>
+
+<!ELEMENT seq EMPTY>
+<!ATTLIST seq
+		name CDATA #REQUIRED>

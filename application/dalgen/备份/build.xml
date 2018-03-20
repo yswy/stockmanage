@@ -1,0 +1,7 @@
+<?xml version="1.1" encoding="GBK"?>
+<project name="stockmanage-dalgen" basedir="." xmlns:artifact="urn:maven-artifact-ant">
+	<get src="http://benchframework.org/dalgen/ant/common-dynamic.xml" dest="${user.home}/bench-dalgen-common-dynamic.xml" usetimestamp="false" />
+	<get src="http://benchframework.org/dalgen/ant/common-execute.xml" dest="${user.home}/bench-dalgen-common-execute.xml" usetimestamp="false" />
+	<import file="${user.home}/bench-dalgen-common-dynamic.xml" />
+	<import file="${user.home}/bench-dalgen-common-execute.xml" />
+</project>

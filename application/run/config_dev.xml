@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GBK"?>
+<Configs>
+	<!-- 数据库连接配置 -->
+	<Config name="db.user" value="config" />
+	<Config name="db.password" value="config" />
+	<Config name="db.url" value="jdbc:oracle:thin:@10.0.12.1:1521/orcl" />
+	<Config name="LOCAL_SERVER_PORT" value="8888" />
+</Configs>
