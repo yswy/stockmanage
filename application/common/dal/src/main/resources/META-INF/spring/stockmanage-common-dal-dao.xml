@@ -12,6 +12,4 @@
     <!--  DAO���塣                                                               -->
     <!-- ======================================================================== -->
 
-	<bean id="seqDAO" class="com.bench.app.stockmanage.common.dal.ibatis.IbatisSeqDAO" parent="sqlMapClientDAO" />
-		
 </beans>

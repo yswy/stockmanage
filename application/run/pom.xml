@@ -9,7 +9,7 @@
 	</parent>
 	<modelVersion>4.0.0</modelVersion>
 
-
+	<groupId>com.bench.app.stockmanage</groupId>
 	<artifactId>stockmanage-run</artifactId>
 	<packaging>jar</packaging>
 	<dependencies>

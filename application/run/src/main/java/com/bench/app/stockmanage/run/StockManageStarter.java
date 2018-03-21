@@ -3,7 +3,7 @@ package com.bench.app.stockmanage.run;
 import java.util.Properties;
 
 import org.apache.log4j.PropertyConfigurator;
-import org.springframework.context.ConfigurableApplicationContext;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import com.bench.app.stockmanage.base.application.BenchWebApplication;
 import com.bench.app.stockmanage.base.start.BenchAppStarter;
@@ -17,6 +17,7 @@ import com.bench.app.stockmanage.base.utils.SystemUtils;
  * @version $Id: ASClientApiServerStarter.java, v 0.1 2018年3月8日 下午2:31:06
  *          chenbug Exp $
  */
+@SpringBootApplication
 public class StockManageStarter extends BenchAppStarter {
 
 	/**

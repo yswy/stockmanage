@@ -1,1 +1,1 @@
-Bench-Component-Name: com.bench.app.stockmanage.common.dal
+Bench-Component-Name: com.bench.app.stockmanage.web.home
